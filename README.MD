@@ -10,7 +10,7 @@
 
 **A modern, feature-rich real-time chat application built with the MERN stack**
 
-[🚀 Live Demo](https://mern-term5-project.onrender.com) • [📹 Video Demo](#) • [📚 Documentation](#table-of-contents)
+[🚀 Deployed Link ](https://mern-term5-project.onrender.com)
 
 </div>
 
@@ -39,14 +39,6 @@
 ## 🎯 Project Overview
 
 **Chatify** is a production-ready, real-time messaging platform that enables seamless communication between users through instant messaging. Built using the **MERN stack** (MongoDB, Express.js, React, Node.js) with **Socket.io** for WebSocket connections, this application demonstrates modern web development practices, security implementations, and scalable architecture patterns.
-
-### 🎓 Academic Context
-
-- **Course**: MERN Stack Development
-- **Institution**: Scaler School of Technology
-- **Instructor**: Mrinal Bhattacharya
-- **Project Weight**: 50% of Term 5 Grade
-- **Submission Date**: October 24, 2025
 
 ### 🌟 Project Highlights
 
@@ -1100,31 +1092,8 @@ git push origin feature/amazing-feature
 - Add **JSDoc comments** for functions
 - Keep functions **small and focused**
 
----
 
-## 📄 License
-
-This project is licensed under the **ISC License**.
-
-```
-Copyright (c) 2025 Raja Surya
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
-AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
-INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
-LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
-OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-PERFORMANCE OF THIS SOFTWARE.
-```
-
----
-
-## 📞 Contact & Support
+## 📞 Contact
 
 ### Developer Information
 
@@ -1132,14 +1101,11 @@ PERFORMANCE OF THIS SOFTWARE.
 - **Institution**: Scaler School of Technology
 - **Email**: rajasurya@example.com
 - **GitHub**: [@rajasurya-rjs](https://github.com/rajasurya-rjs)
-- **LinkedIn**: [Your LinkedIn Profile](#)
 
 ### Project Links
 
 - **Repository**: https://github.com/rajasurya-rjs/Mern_Term5_Project
 - **Live Demo**: https://mern-term5-project.onrender.com
-- **Issues**: https://github.com/rajasurya-rjs/Mern_Term5_Project/issues
-- **Documentation**: This README
 
 ### Acknowledgments
 
@@ -1152,19 +1118,6 @@ PERFORMANCE OF THIS SOFTWARE.
   - Resend for email service
   - Arcjet for security features
 
----
-
-<div align="center">
-
-**Built with ❤️ by Raja Surya**
-
-⭐ Star this repository if you found it helpful!
-
-[Report Bug](https://github.com/rajasurya-rjs/Mern_Term5_Project/issues) • [Request Feature](https://github.com/rajasurya-rjs/Mern_Term5_Project/issues)
-
-</div>
-
----
 
 ## 📊 Project Statistics
 
