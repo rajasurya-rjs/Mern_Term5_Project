@@ -16,8 +16,8 @@ export const startKeepAlive = (serverUrl) => {
   }
 
   // Validate server URL
-  if (!serverUrl) {
-    console.warn("Keep-alive service: No server URL provided");
+  if (!serverUrl || serverUrl.includes("localhost")) {
+    console.log("Keep-alive service: Invalid or local URL, skipping");
     return;
   }
 
