@@ -9,6 +9,7 @@ import messageRoutes from "./routes/message.route.js";
 import { connectDB } from "./lib/db.js";
 import { ENV } from "./lib/env.js";
 import { app, server } from "./lib/socket.js";
+import { startKeepAlive } from "./lib/keepAlive.js";
 
 // Get the directory name of the current module (ES module compatible)
 const __filename = fileURLToPath(import.meta.url);
@@ -19,6 +20,12 @@ const PORT = ENV.PORT || 3000;
 app.use(express.json({ limit: "5mb" }));
 app.use(cors({ origin: ENV.CLIENT_URL, credentials: true }));
 app.use(cookieParser());
+
+// Keep-alive endpoint to prevent Render free tier from spinning down
+// This endpoint is lightweight and returns immediately
+app.get("/ping", (_, res) => {
+  res.status(200).send("OK");
+});
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
@@ -39,4 +46,9 @@ if (ENV.NODE_ENV === "production") {
 server.listen(PORT, () => {
   console.log("Server running on port: " + PORT);
   connectDB();
+  
+  // Start keep-alive service to prevent Render free tier sleep
+  // Replace with your actual Render URL (e.g., https://your-app.onrender.com)
+  const RENDER_URL = ENV.RENDER_URL || `http://localhost:${PORT}`;
+  startKeepAlive(RENDER_URL);
 });
